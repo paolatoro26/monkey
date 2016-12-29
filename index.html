@@ -6,10 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Monkey</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<script src="main.js"></script>
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	
 </head>
 <body>
+
 	<section class="principal">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h1>Monkey Trouble</h1>
@@ -24,18 +26,18 @@
 				<div class="col-md-6">
 					<h2>Mono B</h2>
 					<label for="mono_b">Esta Feliz
-						<input type="checkbox" onchange="monoB()" id="mono_a">
+						<input type="checkbox" onchange="monoB()" id="mono_b">
 					</label>
 					<div id="img_mono_b"></div>
 				</div>
 			</div>
-			<div class="well">
+			<div>
 				<h3>Averigua si estamos en problemas</h3>
 				<h1 id="salida"></h1>
 			</div>
 			<p><button onclick="evaluar()" class="btn-warning btn-lg btn">Evaluar</button></p>
 		</div>
 	</section>
-	
+	<script src="js/main.js"></script>
 </body>
 </html>

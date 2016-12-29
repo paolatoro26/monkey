@@ -1,13 +1,13 @@
 function monoA()
 {
 	var img=document.getElementById("img_mono_a");
-	var checkB=document.getElementById("mono_a");
+	var checkA=document.getElementById("mono_a");
 
-	if(checkB.checked)
-		img.innerHTML= '<img src="../img/feliz.jpg">';
-	else
-		img.innerHTML= '<img src="../img/triste.jpg">';
-	
+	if(checkA.checked){
+		img.innerHTML= "<img src='../img/feliz.jpg'>";
+	}else{
+		img.innerHTML= "<img src='../img/triste.jpg'>";
+	}
 }
 
 
@@ -16,11 +16,11 @@ function monoB()
 	var img=document.getElementById("img_mono_b");
 	var checkB=document.getElementById("mono_b");
 
-	if(checkB.checked)
-		img.innerHTML= '<img src="../img/feliz.jpg">';
-	else
-		img.innerHTML= '<img src="../img/triste.jpg">';
-
+	if(checkB.checked){
+		img.innerHTML= "<img src='../img/feliz.jpg'>";
+	}else{
+		img.innerHTML= "<img src='../img/triste.jpg'>";
+	}	
 }
 
 function evaluar()

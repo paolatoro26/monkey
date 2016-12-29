@@ -1,0 +1,10 @@
+
+body{
+	background: url(../img/selva1.jpg);
+	background-size: cover;
+}
+
+.col-md-8{
+	margin-top: 10%;
+	background-color: white;
+}
